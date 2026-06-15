@@ -1746,7 +1746,7 @@ This would allow deployment in latency-sensitive environments.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/securedbagent-agentic-ai-database-security.git
+git clone https://github.com/rajani2024/securedbagent-agentic-ai-database-security.git
 cd securedbagent-agentic-ai-database-security
 ```
 
