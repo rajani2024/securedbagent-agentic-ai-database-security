@@ -1,0 +1,31 @@
+# Core data processing
+numpy
+pandas
+
+# Visualisation
+matplotlib
+seaborn
+wordcloud
+
+# SQL parsing and preprocessing
+sqlparse
+
+# Machine learning
+scikit-learn
+scipy
+joblib
+
+# Deep learning
+tensorflow==2.15.0
+keras==2.15.0
+
+# Explainable AI
+shap
+
+# Notebook environment
+jupyter
+notebook
+ipykernel
+
+# Utilities
+tqdm

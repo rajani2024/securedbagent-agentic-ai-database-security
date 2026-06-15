@@ -1,0 +1,160 @@
+# =========================================================
+# Python cache and build files
+# =========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================================================
+# Virtual environments
+# =========================================================
+venv/
+env/
+ENV/
+.venv/
+*.venv/
+
+# =========================================================
+# Jupyter Notebook checkpoints
+# =========================================================
+.ipynb_checkpoints/
+
+# =========================================================
+# Environment variables and secrets
+# =========================================================
+.env
+*.env
+!.env.example
+
+# =========================================================
+# IDE and editor files
+# =========================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================================================
+# OS generated files
+# =========================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================================
+# Logs and temporary files
+# =========================================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# =========================================================
+# Raw datasets and generated data files
+# =========================================================
+data/*.csv
+data/*.json
+data/*.xlsx
+data/*.pkl
+data/*.joblib
+
+# Keep dataset instructions
+!data/README.md
+
+# Data cleaning review outputs
+data/review/
+
+# Train-validation-test split outputs
+data/TestTrainSplit/
+
+# Final cleaned dataset
+data/final_data.csv
+
+# =========================================================
+# Context Policy generated artefacts
+# =========================================================
+ContextPolicy/policies_generated/
+ContextPolicy/table_catalog/
+ContextPolicy/logs/
+ContextPolicy/config/
+ContextPolicy/flagged_queries/
+
+# =========================================================
+# Static feature extraction outputs
+# =========================================================
+static_features/
+
+# =========================================================
+# CNN encoder outputs
+# =========================================================
+cnn_encoder/
+
+# =========================================================
+# Threat classifier outputs
+# =========================================================
+threat_classifier/
+
+# =========================================================
+# Risk-tier decision outputs
+# =========================================================
+risk_tier/
+
+# =========================================================
+# Evaluation outputs
+# =========================================================
+evaluation/
+
+# =========================================================
+# Explainability outputs
+# =========================================================
+xai/
+
+# =========================================================
+# Trained model artefacts
+# =========================================================
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.pb
+saved_model/
+models/
+
+# =========================================================
+# Large compressed files
+# =========================================================
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.7z
+*.rar
+
+# =========================================================
+# Keep documentation and selected report figures
+# =========================================================
+!reports/
+!reports/figures/
+!reports/figures/*.png
+!reports/figures/*.jpg
+!reports/figures/*.jpeg
+!reports/figures/*.svg
